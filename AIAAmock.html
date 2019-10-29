@@ -1,0 +1,131 @@
+<!--AIAA WebApp mock up-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AIAA WebApp</title>
+	<style>
+
+ul{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#dee3e1;
+}
+li{
+	float: left;
+	padding:21px;
+
+}
+
+#name{
+	font-size: 20px;
+	font-family: Ariel;
+	
+	position:absolute
+	left:2px;
+}
+li input{
+	display: block;
+	max-width: 48px;
+	color: black;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+
+}
+li a:hover{
+	background-color: red;
+
+}
+
+#TagGI{
+	background-color: blue;
+	color: white;
+	position:absolute;
+	right: 500px;
+	top:7px;
+	bottom:7px;
+padding: 14px;
+  border-radius: 25px;
+
+
+}
+
+#TagGC{
+		background-color: blue;
+	color: white;
+	position:absolute;
+	right: 10px;
+	top: 7px;;
+	bottom:7px;
+padding: 14px;
+  border-radius: 25px;
+
+
+}
+.nav{
+	display:block;
+width:100%;
+
+	position:relative;
+	top:0px;
+
+}
+
+#button{
+	position:absolute;
+	top: 7px;
+	bottom:7px;
+	right: 900px;
+	background-color: blue;
+	color: white;
+	padding: 14px;
+	  border-radius: 25px;
+
+
+}
+
+#formGC{
+	position: absolute;
+	right:190px;
+	top: 20px;
+	
+}
+
+#formGI{
+	position:absolute;
+	right:603px;
+	top: 20px;
+	
+}
+</style>
+</head>
+<body>
+	
+	<div class="nav">
+	<ul>
+		<li id="name"> RU Autonomous </li>
+		<li> <button type="button" onclick="alert('Attach Link Here')" id="button"> Start Triggering </li> </button>
+
+<form id="formGI">
+  <input type="number">
+  
+</form>
+		<li id="TagGI"> Gain Input </li>
+
+
+<form id="formGC">
+ <input type="number">
+  
+</form>
+		<li  id="TagGC"> In-Flight Gain Change </li>
+
+	</ul>
+</div>
+
+
+</body>
+</html>
+
